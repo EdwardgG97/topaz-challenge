@@ -7,26 +7,6 @@ API REST para reversar transacciones aprobadas usando Spring Boot, Spring Data J
 - Java 21
 - No es necesario instalar Maven: el proyecto incluye Maven Wrapper.
 
-## Ejecutar
-
-En Windows PowerShell, desde la raíz del proyecto:
-
-```powershell
-& (Join-Path $PWD 'mvnw.cmd') spring-boot:run
-```
-
-En Linux o macOS:
-
-```bash
-./mvnw spring-boot:run
-```
-
-La aplicación inicia en `http://localhost:8080`. Para ejecutar las pruebas:
-
-```powershell
-& (Join-Path $PWD 'mvnw.cmd') test
-```
-
 ## API
 
 ### Reversar una transacción
